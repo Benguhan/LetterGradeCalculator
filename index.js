@@ -82,6 +82,12 @@ const categories = [
         min : 0,
         max : 59,
         color : "rgb(255, 0, 0)"
+    },
+    {
+        name: "Grade can't be less than zero",
+        min : -Infinity,
+        max : -1,
+        color : "rgb(255, 0, 0)"
     }
 
 ]

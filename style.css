@@ -1,4 +1,7 @@
 body {
+    background-image: url(pexels-olia-danilevich-5088008.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,11 +14,19 @@ body {
     background-color: rgb(205, 205, 205);
     height: 200px;
     width: 350px;
+    margin-top: 35px;
     border-radius: 10px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .container h1 {
-    border-bottom: 2px solid rgb(120, 120, 120);
+    border-bottom: 2px solid bisque;
     font-size: 2em;
     margin: 10px 30px;
 }
@@ -36,7 +47,7 @@ body {
     margin-top: 20px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(144, 144, 144);
+    background-color:bisque;
     font-size: 15px;
 }
 
